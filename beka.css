@@ -1,0 +1,76 @@
+
+
+.container{
+max-width:1200px;
+margin:auto;
+overflow:auto;
+background-color:pink;
+}
+
+.MOGmusic{ 
+margin:5px;
+border:1px solid grey;
+float:left;
+width:390px;
+}
+
+.image{
+text-align: center;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+
+}
+
+.comment {
+  margin-top: 10px;
+  font-style: italic;
+  color: black;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Arrange 4 images per row */
+  grid-gap: 20px;
+}
+
+.desc{
+padding:15px;
+text-align:center;
+color:blue;
+}
+
+.navbar{ 
+background:crimson; font-family:calibri; padding:10px 10px;
+}
+
+
+.navdiv{
+display:flex; align-items:center; justify-content: space-between;
+}
+
+nav a{
+text-align:center;
+color:white;
+font-family:Arial;
+Text-decoration:none;
+}
+
+li{
+display:inline-block;
+}
+
+
+
+
+h3{
+color:red;
+}
+.Excellent{
+float:right;
+Width:60%;
+}
